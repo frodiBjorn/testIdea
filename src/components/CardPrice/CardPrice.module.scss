@@ -1,0 +1,19 @@
+.cardPrice {
+  .cardPriceBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: rgb(239, 128, 1);
+    border: none;
+
+    p {
+      padding: 0 20px;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+  }
+}

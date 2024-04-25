@@ -1,0 +1,29 @@
+.cardTime {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  .stops {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    p {
+      text-align: center;
+    }
+    .stopsImage {
+      display: flex;
+      align-items: center;
+      img {
+        width: 20px;
+      }
+      .stopsLine {
+        height: 2px;
+        width: 100%;
+        background-color: rgb(209, 209, 209);
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  min-height: 200px;
+  background: #fff;
+  border-radius: 5px;
+  .cardLeft {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-right: 2px solid rgb(209, 209, 209);
+  }
+
+  .cardImage img {
+    width: 200px;
+  }
+}
+.cardRight {
+  width: 100%;
+  padding: 20px;
+}
